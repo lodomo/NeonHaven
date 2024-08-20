@@ -1,0 +1,47 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The cold, metallic room echoes your greeting back to you, a hollow sound in the lifeless space. The dim light barely illuminates the sparse furnishings—a single desk sits in the center, as if waiting for your command. Upon it lie three tapes, each marked with a different label: \"Names,\" \"Rules,\" and \"Passwords.\" In front of you, a large screen flickers to life, displaying the eerie sight of 30 figures lined up outside, their faces obscured in shadow. To your right, two buttons catch your eye: one labeled \"Airlock,\" and the other \"Incinerate.\" A blank monitor stares back at you from the wall, as if anticipating the events that are about to unfold. The room is quiet, almost too quiet, as you prepare to make your first move." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "99a3470d-a773-4d80-8dd7-034989d229a1"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "270d5c88-3b37-4589-bb74-71f8d6171388"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "942574f8-5aac-4417-8702-de778213eaf6"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  }
+}

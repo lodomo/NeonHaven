@@ -1,0 +1,51 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "projectNumber": 167292850544,
+  "speechToTextSettings": {
+    "enableSpeechAdaptation": true
+  },
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "enabled": true,
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      },
+      "models": [ {
+        "key": "en",
+        "value": "default"
+      } ]
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+    "synthesizeSpeechConfigs": [ {
+      "key": "en",
+      "value": {
+        "voice": {
+          "name": "en-US-Journey-D",
+          "ssmlGender": "SSML_VOICE_GENDER_MALE"
+        }
+      }
+    } ]
+  },
+  "duplexSettings": {
+  
+  },
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}
