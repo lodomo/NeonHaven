@@ -1,0 +1,11 @@
+{
+  "name": "476e100f-219e-44e7-bcfe-b47c0e8175d4",
+  "displayName": "Get Next Character",
+  "genericWebService": {
+    "uri": "https://us-west1-codesamuraineonhaven.cloudfunctions.net/function-1",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

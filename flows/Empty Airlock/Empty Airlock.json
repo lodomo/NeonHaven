@@ -24,7 +24,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "$session.params.tape_type" ]
+          "text": [ "Vex.\nNova.\nCipher.\nBlitz.\nRaze.\nJuno.\nHavoc.\nShade.\nEcho.\nNix.\nLisa." ]
         },
         "languageCode": "en"
       } ],
@@ -40,7 +40,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "$session.params.tape_type" ]
+          "text": [ "Glitch.\nPixel.\nCircuit.\nNeon.\nFloppy.\nByte.\nSynth.\nLaser.\nHolo.\nTerminal.\nVolt.\nCrypt.\nModem.\nQuantum.\nStatic.\nDataline.\nRetro.\nAnalog.\nVoxel.\nSpectrum." ]
         },
         "languageCode": "en"
       } ],
@@ -65,6 +65,36 @@
     },
     "name": "2c31bdba-99f3-490b-a007-5a4b6c9b73f5",
     "description": "Tell the user the state of the room."
+  }, {
+    "intent": "Load Airlock",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "A figure steps into the airlock.", "Someone enters the airlock.", "A person makes their way into the airlock.", "The airlock door opens, and a person walks in.", "A helmeted individual steps into the airlock", "A figure wearing a helmet enters the airlock.", "A person arrives in the airlock", "The airlock admits a new arrival.", "A lone figure enters the airlock.", "The airlock is occupied as a person enters", "A person walks through the airlock door.", "A figure crosses into the airlock.", "A person moves into the airlock.", "The airlock receives a new occupant.", "A person steps into the confined space of the airlock.", "A person enters, and the airlock door seals behind them", "A figure steps into the chamber of the airlock.", "A person walks into the airlock, the door closing behind them" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "Get Next Character",
+      "tag": "GetNextChar",
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "d11203c1-4376-4e55-be71-91b2f28a3d31"
+  }, {
+    "intent": "Incinerate Character",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Flames erupt, quickly engulfing the airlock.", "The airlock is consumed by a sudden burst of fire.", "Fire floods the airlock, filling every corner.", "A wave of flames sweeps through the airlock.", "The airlock is filled with a roaring inferno.", "Flames surge, overtaking the airlock entirely.", "Fire spills into the airlock, engulfing it in an instant.", "The airlock is swallowed by a torrent of fire", "A fiery blaze engulfs the airlock, leaving no space untouched", "The airlock is bathed in flames, burning fiercely." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "104b8abb-a0a7-47ce-b633-f73cb22f1014"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
