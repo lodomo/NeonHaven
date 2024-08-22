@@ -7,13 +7,14 @@
   },
   "startFlow": "Default Start Flow",
   "advancedSettings": {
+    "enabled": true,
     "audioExportGcsDestination": {
     
     },
     "speechSettings": {
       "endpointerSensitivity": 90,
       "noSpeechTimeout": {
-        "seconds": 5
+        "seconds": 60
       }
     },
     "playbackInterruptionSettings": {

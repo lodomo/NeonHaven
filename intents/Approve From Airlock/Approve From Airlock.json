@@ -1,0 +1,8 @@
+{
+  "name": "ef1b08a6-56f5-442f-ac7f-429e37788440",
+  "displayName": "Approve From Airlock",
+  "priority": 500000,
+  "description": "Allow in a character from the airlock",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 18
+}

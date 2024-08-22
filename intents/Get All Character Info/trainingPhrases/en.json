@@ -1,0 +1,269 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hello. I'll need to verify your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hey. Could you state your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": " for me?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Greetings. Your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": " are needed to move forward.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Good day. Can you tell me your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Welcome. Please provide your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hi. I need your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": " for access.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hello. What's your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Good evening. May I get your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": ", please?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hey there. I require your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": " before proceeding.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hello. Please confirm your identity with your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hi. Could you please tell me your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Greetings. I'll need your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": " to continue.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Welcome. Kindly state your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Good day. May I have your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": " for verification?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hello there. Please provide your ",
+      "auto": true
+    }, {
+      "text": "name"
+    }, {
+      "text": " and ",
+      "auto": true
+    }, {
+      "text": "password"
+    }, {
+      "text": " to proceed.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

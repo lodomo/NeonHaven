@@ -1,0 +1,11 @@
+{
+  "name": "e752b9f1-32e5-45ec-ad6c-e0ba9de4ef3c",
+  "displayName": "Deny but don't incinerate",
+  "parameters": [ {
+    "id": "airlock",
+    "entityType": "@Airlock"
+  } ],
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 30
+}

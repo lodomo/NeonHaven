@@ -1,0 +1,8 @@
+{
+  "name": "c13c03b2-577e-4fe3-9f65-18c2d03dbbc3",
+  "displayName": "Incinerate Character",
+  "priority": 500000,
+  "description": "Kill the character inside the airlock",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 20
+}

@@ -1,0 +1,10 @@
+{
+  "name": "7c9b6309-fed9-44a6-9935-aec1e05302ec",
+  "displayName": "Load Airlock",
+  "parameters": [ {
+    "id": "airlock",
+    "entityType": "@Airlock"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 16
+}

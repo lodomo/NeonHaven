@@ -1,0 +1,154 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My ",
+      "auto": true
+    }, {
+      "text": "name",
+      "parameterId": "character",
+      "auto": true
+    }, {
+      "text": "'s ",
+      "auto": true
+    }, {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": ", and I'm here for business.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "This is ",
+      "auto": true
+    }, {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": ", I'm here to protect the city.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " reporting in, ready to assist.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My ",
+      "auto": true
+    }, {
+      "text": "name",
+      "parameterId": "character",
+      "auto": true
+    }, {
+      "text": " is ",
+      "auto": true
+    }, {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": ", and I'm here for a mission.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " play game",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": ", to play a game",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " to save Neo Tokyo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": ", to defeat RONIN",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " I'm here to play the game",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My ",
+      "auto": true
+    }, {
+      "text": "name",
+      "parameterId": "character",
+      "auto": true
+    }, {
+      "text": " is ",
+      "auto": true
+    }, {
+      "text": "Lorenzo",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " and I am here to play the game",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

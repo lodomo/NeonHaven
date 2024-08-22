@@ -1,0 +1,113 @@
+{
+  "name": "664d015e-59cc-42fa-8052-9b89c7a92348",
+  "displayName": "Empty Airlock",
+  "description": "The user can check what's in the room, listen to tapes, and open the airlock",
+  "transitionRoutes": [ {
+    "intent": "Play Tapes",
+    "condition": "$session.params.tape_type = \"Rules\" OR $session.params.tape_type = \"rules\" OR $session.params.tape_type = \"rule\" OR $session.params.tape_type = \"Rule\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Greetings, Samurai. The safety of Neon Haven depends on your vigilance. Remember: not all who seek entry can be trusted.\"\n\n\"Here are the rules of engagement:\"\n\n    Identity Verification: Every individual seeking entry must provide their name and a corresponding password. Both must be on the authorized list.\n\n    Name-Password Integrity: The name and password must not share any letters. Even a single overlapping character indicates potential tampering.\n\n    Doppelganger Protocol: Beware of doppelgangers. If you identify one—eliminate them immediately. Press the 'Incinerate' button without hesitation. Let even one doppelganger inside, and Neon Haven is compromised. You lose everything.\n\n\"Your mission is clear: Protect Neon Haven. Trust no one who cannot prove their allegiance. Good luck." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "178ed087-3aed-47da-a9d2-9eb44b834c59",
+    "description": "Play the Rules Tape"
+  }, {
+    "intent": "Play Tapes",
+    "condition": "$session.params.tape_type = \"names\" OR $session.params.tape_type = \"Name\" OR $session.params.tape_type = \"Names\" OR $session.params.tape_type = \"name\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$session.params.tape_type" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "d9cbf61c-ddf1-47ce-898a-5c411367c459",
+    "description": "Play the names tape"
+  }, {
+    "intent": "Play Tapes",
+    "condition": "$session.params.tape_type = \"Passwords\" OR $session.params.tape_type = \"passwords\" OR $session.params.tape_type = \"password\" OR $session.params.tape_type = \"Password\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$session.params.tape_type" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "d0d5ef4a-472f-4ecd-bb56-da0c543ffbd1",
+    "description": "Play the passwords tapes"
+  }, {
+    "intent": "Look around",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "In front of you, the essentials are clear:\r\n\r\n    A notepad and pen, ready for you to jot down names and passwords.\r\n    Three cassettes labeled \"Names,\" \"Player,\" and \"Rules.\"\r\n    Two buttons: \"Open Airlock\" and \"Incinerate.\"\r\n    The airlock, currently empty, waiting for your command.\r\n\r\nThese are your tools. The decision is yours." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "2c31bdba-99f3-490b-a007-5a4b6c9b73f5",
+    "description": "Tell the user the state of the room."
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "043d205c-e2f8-494f-8652-a43d60c720e5"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7ad77551-5f2a-4f99-9992-d231683c89d2"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "customConfigKey": "4f44b032-bb6e-45f7-8cf2-a582dd549aab",
+    "multiIntentSettings": {
+    
+    },
+    "languageCode": "en"
+  } ]
+}

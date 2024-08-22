@@ -1,0 +1,11 @@
+{
+  "name": "9ad7f56d-bcc8-4c5f-96e9-373af3af0f2f",
+  "displayName": "Get Specific Character Info",
+  "parameters": [ {
+    "id": "character_information",
+    "entityType": "@character_information"
+  } ],
+  "priority": 500000,
+  "description": "Get's a single piece of data from the user",
+  "numTrainingPhrases": 15
+}

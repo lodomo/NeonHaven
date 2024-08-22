@@ -1,0 +1,213 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "reveal your ",
+      "auto": true
+    }, {
+      "text": "statement",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can you tell me your ",
+      "auto": true
+    }, {
+      "text": "statement",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what's your ",
+      "auto": true
+    }, {
+      "text": "statement",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "let's hear your ",
+      "auto": true
+    }, {
+      "text": "statement",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "provide your ",
+      "auto": true
+    }, {
+      "text": "statement",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to know your ",
+      "auto": true
+    }, {
+      "text": "statement",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what's the ",
+      "auto": true
+    }, {
+      "text": "name",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": " you're using?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "tell me the ",
+      "auto": true
+    }, {
+      "text": "name",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "let me have your ",
+      "auto": true
+    }, {
+      "text": "name",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can you provide your ",
+      "auto": true
+    }, {
+      "text": "name",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "share your ",
+      "auto": true
+    }, {
+      "text": "name",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": " with me.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i need to know your ",
+      "auto": true
+    }, {
+      "text": "password",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "tell me your ",
+      "auto": true
+    }, {
+      "text": "password",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what's your ",
+      "auto": true
+    }, {
+      "text": "password",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "give me the ",
+      "auto": true
+    }, {
+      "text": "password",
+      "parameterId": "character_information",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

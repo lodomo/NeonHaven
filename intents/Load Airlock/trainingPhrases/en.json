@@ -1,0 +1,200 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Airlock",
+      "parameterId": "airlock",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Bring the next individual into the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get the next person into the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Open the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": " for the next person.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Advance the next one to the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Allow the next person into the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Send the next character into the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Next up in the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ", please.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Let the next individual enter the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Bring in the next one.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Move the next character into the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Next person, into the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Open the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": " for the next arrival.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Let the next one in.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Send in the next character.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Bring the next person into the ",
+      "auto": true
+    }, {
+      "text": "airlock",
+      "parameterId": "airlock",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

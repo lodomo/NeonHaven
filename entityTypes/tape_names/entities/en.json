@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "names",
+    "synonyms": [ "name", "names" ],
+    "languageCode": "en"
+  }, {
+    "value": "passwords",
+    "synonyms": [ "password", "passwords" ],
+    "languageCode": "en"
+  }, {
+    "value": "rules",
+    "synonyms": [ "rule", "rules" ],
+    "languageCode": "en"
+  } ]
+}

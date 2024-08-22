@@ -1,0 +1,432 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "likes to the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": " tape"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "listen to the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i'd like to hear the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "could you start the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "put the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape on",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "play back the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "let's listen to the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can you play the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape for me?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please play the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " for me tape",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "run the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "queue up the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "turn on the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " tape",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i'd like to listen to the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": " tape"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "start the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": " tape"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can you put on the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": " tape?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "let's hear the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": " tape"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "play the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": " tape"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i'd like to hear the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "could you start the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "put the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " on.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "play back the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "let's listen to the ",
+      "auto": true
+    }, {
+      "text": "passwords",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can you play the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " for me?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please play the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": " for me.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "run the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "queue up the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "turn on the ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i'd like to listen to the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "start the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can you put on the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "let's hear the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "play the "
+    }, {
+      "text": "rules",
+      "parameterId": "tape_type"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

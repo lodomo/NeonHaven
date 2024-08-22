@@ -1,0 +1,11 @@
+{
+  "name": "374acf9c-d7f4-447c-a60f-4a887010f5f7",
+  "displayName": "Play Tapes",
+  "parameters": [ {
+    "id": "tape_type",
+    "entityType": "@tape_names"
+  } ],
+  "priority": 500000,
+  "description": "The player will be trying to listen to a cassette tape.",
+  "numTrainingPhrases": 34
+}

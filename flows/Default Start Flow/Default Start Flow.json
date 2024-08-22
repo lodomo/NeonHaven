@@ -7,7 +7,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Thank you for calling the Neon Haven security agent line. If you're calling to prepare to bring in the agents, say \"Game On\", if you called this number by accident, or are an agent of RONIN, please hang up and mind your own damn business." ]
+          "text": [ "Welcome to Neon Haven, your sanctuary in the heart of the city. Please identify yourself and state your business." ]
         },
         "languageCode": "en"
       } ],
@@ -16,6 +16,21 @@
       }
     },
     "name": "629eeed8-24ca-47df-9035-1cb96bb1e22a"
+  }, {
+    "intent": "Identify Self",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Welcome, $session.params.person. As you take your position in front of the console, you notice three cassettes neatly arranged on the panel, each labeled with a single word: \"Names,\" \"Player,\" and \"Rules.\" A large, red button marked \"Open Airlock\" sits prominently to the right, while another, more ominous button labeled \"Incinerate\" glows faintly beneath it.\n\nThe choice is yours. How do you proceed?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetFlow": "Empty Airlock",
+    "name": "0b5fbf66-a756-416d-adee-c31fedd403f8"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -43,5 +58,11 @@
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
-  }
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "9f40e042-a033-4ce4-901d-fb45f7b52df9",
+    "languageCode": "en"
+  } ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "4c5f8962-ce27-4f2a-b26a-12745eff79f3",
+  "displayName": "Get All Character Info",
+  "parameters": [ {
+    "id": "tape_names",
+    "entityType": "@tape_names"
+  }, {
+    "id": "tape_names1",
+    "entityType": "@tape_names"
+  }, {
+    "id": "character_information",
+    "entityType": "@character_information"
+  }, {
+    "id": "character_information1",
+    "entityType": "@character_information"
+  } ],
+  "priority": 500000,
+  "description": "Get a single piece of information from the person in the airlock",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 16
+}

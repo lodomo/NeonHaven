@@ -1,0 +1,14 @@
+{
+  "name": "08648b20-836c-4a19-9f98-db09d7a982e0",
+  "displayName": "Identify Self",
+  "parameters": [ {
+    "id": "character",
+    "entityType": "@tape_names"
+  }, {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "description": "This is the first thing the user will say. ",
+  "numTrainingPhrases": 11
+}
