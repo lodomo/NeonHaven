@@ -80,6 +80,7 @@
       
       }
     },
+    "targetFlow": "Full Airlock",
     "name": "d11203c1-4376-4e55-be71-91b2f28a3d31"
   }, {
     "intent": "Incinerate Character",

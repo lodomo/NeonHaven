@@ -3,8 +3,78 @@
   "displayName": "Full Airlock",
   "description": "The user can check what's in the room, listen to tapes, let a character in, or incinerate them.",
   "transitionRoutes": [ {
-    "intent": "Approve From Airlock",
+    "intent": "Get All Character Info",
     "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The figure hesitates, their helmeted head tilting slightly. They approach the keypad, fingers trembling as they input a sequence. The screen flickers, displaying '$session.params.samurai.name then $session.params.samurai.password.'", "They move with purpose, though their movements betray a hint of hesitation. Reaching the keypad, their gloved fingers tap out a code. The screen responds: '$session.params.samurai.name then $session.params.samurai.password.'", "The airlock’s occupant, clad in a helmet, approaches the keypad with a sense of urgency. They quickly type, and the display reads '$session.params.samurai.name then $session.params.samurai.password.'", "With a shaky hand, the figure in the helmet approaches the keypad. They input the sequence, and the screen lights up: '$session.params.samurai.name then $session.params.samurai.password.'", "The figure in the airlock, helmet obscuring their face, fumbles with the keypad, each press of a button filled with desperation. The screen responds with '$session.params.samurai.name then $session.params.samurai.password.'", "\"They approach the keypad, their helmeted head slightly bowed. A quick sequence is entered, and the screen displays '$session.params.samurai.name then $session.params.samurai.password.'", "Their movements show a bit of nervousness as they input the code, hands shaking slightly. The screen reads '$session.params.samurai.name then $session.params.samurai.password.'", "A figure stands in the airlock, helmet reflecting the dim light, as their fingers dance across the keypad with urgency. The screen flashes '$session.params.samurai.name then $session.params.samurai.password.'", "They move toward the keypad with a sense of dread. Gloved fingers quickly input a code, and the display responds: '$session.params.samurai.name then $session.params.samurai.password.'", "The figure in the airlock hesitates, helmet obscuring any sign of emotion, then rapidly enters a code into the keypad. The screen flickers with '$session.params.samurai.name then $session.params.samurai.password.'" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "3420a985-0494-4ca1-afb6-009849821647"
+  }, {
+    "intent": "Get Specific Character Info",
+    "condition": "$session.params.character_information = \"name\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The figure pauses, then approaches the keypad with caution. Their fingers tap out a sequence, and the screen lights up: '$session.params.samurai.name.'", "They move forward, their helmeted face unreadable, and input a code. The display shows '$session.params.samurai.name.'", "With steady hands, the figure enters the sequence. The screen responds: '$session.params.samurai.name.' ", "The airlock’s occupant, hidden behind their helmet, inputs the code with confidence. The screen reveals '$session.params.samurai.name.'", "Approaching the keypad, they enter the sequence without hesitation. The screen displays '$session.params.samurai.name.'", "The figure in the airlock types in the code, and the screen flickers: '$session.params.samurai.name.'", "They key in the sequence with determination. The display reads '$session.params.samurai.name.'", "The figure approaches the keypad, their movements deliberate. They enter the code, and the screen shows '$session.params.samurai.name.'", "With a measured hand, the figure inputs the sequence. The screen lights up: '$session.params.samurai.name.' ", "They stand before the keypad, fingers moving quickly. The display shows '$session.params.samurai.name.'" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "148e04ab-1f4b-4f9b-8fe9-3304f9a1ace0",
+    "description": "Name reveal"
+  }, {
+    "intent": "Get Specific Character Info",
+    "condition": "$session.params.character_information = \"password\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The figure steps forward, entering a sequence on the keypad. The screen displays '$session.params.samurai.password.'", "With deliberate movements, they input the code. The display flickers and shows '$session.params.samurai.password.'", "They approach the keypad and type in the sequence with precision. The screen lights up: '$session.params.samurai.password.'", "The airlock’s occupant hesitates for a moment, then keys in the sequence. The display reveals '$session.params.samurai.password.' ", "With a steady hand, the figure inputs the code. The screen responds with '$session.params.samurai.password.'", "\"They move with purpose, entering the sequence quickly. The screen displays '$session.params.samurai.password.' ", "The figure in the airlock types in the code, and the display shows '$session.params.samurai.password.' ", "They approach the keypad, their fingers moving with confidence. The screen flickers and reveals '$session.params.samurai.password.'", "With determination, they enter the sequence. The screen lights up: '$session.params.samurai.password.' ", "The figure stands before the keypad, typing in the code with precision. The display shows '$session.params.samurai.password.'" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "20907a4c-3d0a-48b4-8890-466ee4f9a5c8",
+    "description": "Password Only"
+  }, {
+    "intent": "Approve From Airlock",
+    "condition": "$session.params.samurai.statement = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The last of the samurai steps into the safe haven, and the doors close behind them with a final, heavy click. RONIN’s machines lie shattered, their threat neutralized for tonight. But the city remains under his dark grip, and the war is far from over. Neo Tokyo still needs its heroes. If you’re ready to finish the fight and bring down RONIN once and for all, join the battle in Code Samurai. The night is yours—for now. But the true test is yet to come." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetFlow": "GoodEnding",
+    "name": "b7fb6b14-b82d-4135-b703-6b1281a00593",
+    "description": "Last Person"
+  }, {
+    "intent": "Approve From Airlock",
+    "condition": "$session.params.samurai.good = \"true\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The figure pauses as the airlock opens, revealing the interior of the safe haven. 'Thank you,' they say with a nod before stepping inside, relief evident in their voice.", "The door slides open, and the figure glances back. 'I owe you one—thank you,' they say, before disappearing into the safety of the haven.", "With the airlock cleared, the figure breathes a sigh of relief. 'Thank you. I didn't think I'd make it,' they murmur, stepping into the sanctuary.", "As the safe haven door unlocks, the figure turns to you. 'Thanks for letting me in,' they say, gratitude lacing their words as they walk inside.", "The airlock opens, and the figure takes a step forward. 'Thank you,' they offer, a brief but sincere expression, before entering the safe haven.", "The figure hesitates for a moment, then nods as the airlock door opens. 'Thank you,' they say, voice steady with appreciation, before moving inside.", "With a soft click, the door to the safe haven opens. 'Thank you for this,' the figure says quietly, before making their way inside.", "The airlock door slides open, and the figure turns slightly. 'I really appreciate it—thank you,' they say, before stepping into the safety beyond.", "As the door to the safe haven opens, the figure gives a small, grateful smile. 'Thank you,' they say, before entering the sanctuary.", "The airlock unlocks, and the figure breathes out in relief. 'Thank you for letting me in,' they say, voice filled with gratitude, as they step inside." ]
+        },
+        "languageCode": "en"
+      } ],
       "webhook": "Get Next Character",
       "tag": "GetNextChar",
       "nextActionOverride": {
@@ -16,8 +86,17 @@
     "description": "Approved a good guy"
   }, {
     "intent": "Approve From Airlock",
+    "condition": "$session.params.samurai.good = \"false\"",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "The airlock door slides open, and the figure steps inside. Suddenly, their arm transforms into a weapon, firing a barrage of energy bolts. Too late, you realize the mistake—RONIN’s machine has you in its sights.", "As the figure enters the safe haven, their eyes glow a sinister red. In an instant, a hidden flamethrower ignites from their arm, engulfing the room in flames. The safe haven is compromised.", "The airlock opens, and the figure steps in silently. Without warning, metallic tendrils shoot out from their body, wrapping around you with crushing force. The robot’s disguise falls away as it tightens its grip.", "With a calm stride, the figure walks into the safe haven. Then, their chest opens, revealing a pulse cannon. The blast is instantaneous, leaving no time for regret as the safe haven is reduced to rubble.", "The door opens, and the figure steps through. Suddenly, their hand morphs into a blade, slashing through the air with deadly precision. The safe haven is breached, and RONIN’s assassin has struck.", "The airlock opens, and the figure enters. In a flash, their arm converts into a laser cutter, slicing through everything in its path. The safe haven falls under siege from within.", "As the door to the safe haven unlocks, the figure steps inside. Without warning, their helmet retracts, revealing a robotic skull that unleashes a sonic blast, shattering everything around. The trap is sprung.", "The airlock opens, and the figure walks in. In an instant, their body discharges a high-voltage shockwave, short-circuiting every system. The safe haven goes dark as RONIN’s agent takes control.", "The door slides open, and the figure enters. Then, their back splits open, releasing a swarm of micro-drones that tear through the safe haven, leaving destruction in their wake. The invasion has begun.", "The airlock opens, and the figure steps inside, moving with an eerie calm. Suddenly, they detonate an EMP pulse from within, crippling the safe haven’s defenses. The robot’s true nature is revealed as the safe haven falls." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
     },
     "targetFlow": "zzEND",
     "name": "8766c5f5-eedd-4764-8758-869d6158fc1b",
@@ -27,7 +106,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "The flames rise, but there’s no metal beneath the skin, only bone and ash. The airlock is silent, no reset, no next in line. The weight of what you’ve done lingers… The mission ends here.", "The fire consumes, and with it, the last breath of a life. There’s no reveal, just charred remains. The airlock stays closed, as if in mourning. The path forward fades into darkness.", "As the flames flicker out, the truth settles in—no machine, just fragile flesh reduced to nothing. The airlock doesn’t clear; it remains still, as if understanding the finality. It’s over.", "The inferno burns bright, but this time, no steel, no circuits—only a life snuffed out. The airlock stays sealed, the silence heavy with the weight of a mistake that can’t be undone.", "Heat sears through, but there’s no cold metal beneath, only a human form turned to ash. The airlock remains closed, the weight of your actions closing the chapter. The mission has failed.", "The incinerator roars, but the scream that follows is all too human. The airlock remains silent, as if knowing there’s no resetting this. The story ends here.", "A hiss of steam, then silence—no steel, no wires, just a life extinguished. The airlock doesn’t clear; it’s as if the walls themselves mourn. This is where the journey ends.", "Flames devour, but the truth is in the ashes—no machine, only human remains. The airlock stays sealed, the silence a testament to the finality of your choice. It’s over.", "The heat rises, but there’s no reveal, only a life reduced to cinders. The airlock stays shut, as if refusing to move forward. The mission is lost.", "The fire burns away, leaving nothing but ash and regret. The airlock remains closed, the silence heavy with the end of all things. The game ends here." ]
+          "text": [ "The flames rise, but there’s no metal beneath the skin, only bone and ash. The airlock is silent, no reset, no next in line. The weight of what you’ve done lingers… The mission ends here.", "The fire consumes, and with it, the last breath of a life. There’s no reveal, just charred remains. The airlock stays closed, as if in mourning. The path forward fades into darkness.", "As the flames flicker out, the truth settles in—no machine, just fragile flesh reduced to nothing. The airlock doesn’t clear; it remains still, as if understanding the finality. It’s over.", "The inferno burns bright, but this time, no steel, no circuits—only a life snuffed out. The airlock stays sealed, the silence heavy with the weight of a mistake that can’t be undone.", "Heat sears through, but there’s no cold metal beneath, only a human form turned to ash. The airlock remains closed, the weight of your actions closing the chapter. The mission has failed.", "The incinerator roars, but the scream that follows is all too human. The airlock remains silent, as if knowing there’s no resetting this. The story ends here.", "A hiss of steam, then silence—no steel, no wires, just a life extinguished. The airlock doesn’t clear; it’s as if the walls themselves mourn. This is where the journey ends.", "Flames devour, but the truth is in the ashes—no machine, only human remains. The airlock stays sealed, the silence a testament to the finality of your choice. It’s over.", "The heat rises, and so do the screams of the person within, now reduced to cinders. The airlock stays shut, as if refusing to move forward. The mission is lost.", "The fire burns away, leaving nothing but ash and regret. The airlock remains closed, the silence heavy with the end of all things. The game ends here." ]
         },
         "languageCode": "en"
       } ],
@@ -54,6 +133,12 @@
     "targetFlow": "Empty Airlock",
     "name": "dfcfbe4c-c226-4540-97f3-43fc291cc47f",
     "description": "Incinerated a bad guy"
+  }, {
+    "intent": "Deny but don't incinerate",
+    "triggerFulfillment": {
+    
+    },
+    "name": "1cf272f2-0d43-4156-b19e-2402bbdfcbb2"
   }, {
     "intent": "Look around",
     "triggerFulfillment": {
