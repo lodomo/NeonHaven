@@ -1,0 +1,48 @@
+{
+  "name": "97048f14-118b-4894-aadc-dafa0f3e21c3",
+  "displayName": "zzEND",
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Looks like you just hit the '404: Victory Not Found.' Time to hang up and reboot!", "That was a critical failure. Hang up before the system crashes!", "Blue screen of defeat. Better hang up and update your strategy.", "Uh-oh, looks like you ran out of memory... Hang up and clear your cache.", "Your strategy just went offline. Hang up and reboot your tactics.", "You get nothing! You lose! Good day, sir!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "68079622-f967-4ea9-bc38-b52509912545"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "bdb72835-540e-4c63-beef-4f82832739ef"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "customConfigKey": "5b1c9b6b-1248-4183-8a6e-9a2f401328c6",
+    "multiIntentSettings": {
+    
+    },
+    "languageCode": "en"
+  } ]
+}

@@ -1,12 +1,33 @@
 {
-  "name": "e4b43690-aa4b-45cc-98b6-f353bf810c97",
+  "name": "2af3b569-ce1d-4a2b-b80a-ccab95549141",
   "displayName": "Full Airlock",
+  "description": "The user can check what's in the room, listen to tapes, let a character in, or incinerate them.",
   "transitionRoutes": [ {
-    "intent": "Get All Character Info",
+    "intent": "Approve From Airlock",
+    "triggerFulfillment": {
+      "webhook": "Get Next Character",
+      "tag": "GetNextChar",
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetFlow": "Empty Airlock",
+    "name": "d11203c1-4376-4e55-be71-91b2f28a3d31",
+    "description": "Approved a good guy"
+  }, {
+    "intent": "Approve From Airlock",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "zzEND",
+    "name": "8766c5f5-eedd-4764-8758-869d6158fc1b",
+    "description": "Approved a bad guy"
+  }, {
+    "intent": "Incinerate Character",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "$session.params.samurai.name" ]
+          "text": [ "The flames rise, but there’s no metal beneath the skin, only bone and ash. The airlock is silent, no reset, no next in line. The weight of what you’ve done lingers… The mission ends here.", "The fire consumes, and with it, the last breath of a life. There’s no reveal, just charred remains. The airlock stays closed, as if in mourning. The path forward fades into darkness.", "As the flames flicker out, the truth settles in—no machine, just fragile flesh reduced to nothing. The airlock doesn’t clear; it remains still, as if understanding the finality. It’s over.", "The inferno burns bright, but this time, no steel, no circuits—only a life snuffed out. The airlock stays sealed, the silence heavy with the weight of a mistake that can’t be undone.", "Heat sears through, but there’s no cold metal beneath, only a human form turned to ash. The airlock remains closed, the weight of your actions closing the chapter. The mission has failed.", "The incinerator roars, but the scream that follows is all too human. The airlock remains silent, as if knowing there’s no resetting this. The story ends here.", "A hiss of steam, then silence—no steel, no wires, just a life extinguished. The airlock doesn’t clear; it’s as if the walls themselves mourn. This is where the journey ends.", "Flames devour, but the truth is in the ashes—no machine, only human remains. The airlock stays sealed, the silence a testament to the finality of your choice. It’s over.", "The heat rises, but there’s no reveal, only a life reduced to cinders. The airlock stays shut, as if refusing to move forward. The mission is lost.", "The fire burns away, leaving nothing but ash and regret. The airlock remains closed, the silence heavy with the end of all things. The game ends here." ]
         },
         "languageCode": "en"
       } ],
@@ -14,7 +35,88 @@
       
       }
     },
-    "name": "da61079b-5c70-4edd-8d39-fea0bc9339bd"
+    "targetFlow": "zzEND",
+    "name": "104b8abb-a0a7-47ce-b633-f73cb22f1014",
+    "description": "Incinerated a good guy"
+  }, {
+    "intent": "Incinerate Character",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The fire licks at flesh, revealing the metal beneath. RONIN’s puppet, unmasked by flame, crumbles into molten slag. The airlock hisses, clearing the remains. It’s ready for the next in line", "Skin chars and peels, the cold alloy beneath exposed to the flames. RONIN’s spy is reduced to ash, swept away as the airlock resets, prepared for the next arrival.", "As the flames devour the disguise, steel bones are laid bare, then melted into oblivion. The airlock empties with a soft hiss, awaiting the next figure in the queue.", "The inferno strips away the human pretense, revealing the machine within. The ashes are quickly cleared, leaving the airlock pristine, ready for the next challenge.", "Heat sears through synthetic flesh, unmasking the metal beneath. As the last traces of the robot are incinerated, the airlock door opens once more, inviting the next to step forward.", "The incinerator burns away the disguise, turning flesh to ash and metal to slag. With a final hiss, the airlock is purged and reset, ready for the next visitor.", "A hiss of steam as skin gives way to steel. The fire reveals the truth, leaving only molten remains. The airlock clears, signaling it’s ready for the next entrant.", "Flames devour the flesh, revealing the lifeless machine beneath. As the last embers fade, the airlock’s mechanisms hum, resetting for the next arrival.", "The human veneer melts away, exposing the cold steel beneath. The airlock flushes out the remnants, leaving it empty and ready for the next in line.", "The heat reveals all, exposing the true form beneath. The airlock clears the ashes, and with a soft chime, it’s ready for the next figure to step inside." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetFlow": "Empty Airlock",
+    "name": "dfcfbe4c-c226-4540-97f3-43fc291cc47f",
+    "description": "Incinerated a bad guy"
+  }, {
+    "intent": "Look around",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "In front of you, the essentials are clear:\n\n    A notepad and pen, ready for you to jot down names and passwords.\n    Three cassettes labeled \"Names,\" \"Player,\" and \"Rules.\"\n    Two buttons: \"Open Airlock\" and \"Incinerate.\"\n    The airlock has someone waiting to enter.\n\nThese are your tools. The decision is yours." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "2c31bdba-99f3-490b-a007-5a4b6c9b73f5",
+    "description": "Tell the user the state of the room."
+  }, {
+    "intent": "Play Tapes",
+    "condition": "$session.params.tape_type = \"Rules\" OR $session.params.tape_type = \"rules\" OR $session.params.tape_type = \"rule\" OR $session.params.tape_type = \"Rule\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Greetings, Samurai. The safety of Neon Haven depends on your vigilance. Remember: not all who seek entry can be trusted.\"\n\n\"Here are the rules of engagement:\"\n\n    Identity Verification: Every individual seeking entry must provide their name and a corresponding password. Both must be on the authorized list.\n\n    Name-Password Integrity: The name and password must not share any letters. Even a single overlapping character indicates potential tampering.\n\n    Doppelganger Protocol: Beware of doppelgangers. If you identify one—eliminate them immediately. Press the 'Incinerate' button without hesitation. Let even one doppelganger inside, and Neon Haven is compromised. You lose everything.\n\n\"Your mission is clear: Protect Neon Haven. Trust no one who cannot prove their allegiance. Good luck." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "178ed087-3aed-47da-a9d2-9eb44b834c59",
+    "description": "Play the Rules Tape"
+  }, {
+    "intent": "Play Tapes",
+    "condition": "$session.params.tape_type = \"names\" OR $session.params.tape_type = \"Name\" OR $session.params.tape_type = \"Names\" OR $session.params.tape_type = \"name\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Vex.\nNova.\nCipher.\nBlitz.\nRaze.\nJuno.\nHavoc.\nShade.\nEcho.\nNix.\nLisa." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "d9cbf61c-ddf1-47ce-898a-5c411367c459",
+    "description": "Play the names tape"
+  }, {
+    "intent": "Play Tapes",
+    "condition": "$session.params.tape_type = \"Passwords\" OR $session.params.tape_type = \"passwords\" OR $session.params.tape_type = \"password\" OR $session.params.tape_type = \"Password\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Glitch.\nPixel.\nCircuit.\nNeon.\nFloppy.\nByte.\nSynth.\nLaser.\nHolo.\nTerminal.\nVolt.\nCrypt.\nModem.\nQuantum.\nStatic.\nDataline.\nRetro.\nAnalog.\nVoxel.\nSpectrum." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "d0d5ef4a-472f-4ecd-bb56-da0c543ffbd1",
+    "description": "Play the passwords tapes"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -26,7 +128,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "295ef046-dafc-48f0-9cb3-160f8927e91f"
+    "name": "043d205c-e2f8-494f-8652-a43d60c720e5"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -37,16 +139,27 @@
         "languageCode": "en"
       } ]
     },
-    "name": "833fd911-ce46-446d-9ce3-c7f91428619d"
+    "name": "7ad77551-5f2a-4f99-9992-d231683c89d2"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
   },
   "nluSettingsList": [ {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001,
-    "customConfigKey": "b14fc9e4-45c7-46c0-8631-8899a5fa1240",
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "customConfigKey": "4f44b032-bb6e-45f7-8cf2-a582dd549aab",
+    "multiIntentSettings": {
+    
+    },
     "languageCode": "en"
   } ]
 }
