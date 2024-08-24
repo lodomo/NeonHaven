@@ -1,6 +1,16 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "ask them for their ",
+      "auto": true
+    }, {
+      "text": "password",
+      "parameterId": "character_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "state your ",
       "auto": true
     }, {

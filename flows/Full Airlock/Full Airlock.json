@@ -152,7 +152,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "In front of you, the essentials are clear:\n\n    A notepad and pen, ready for you to jot down names and passwords.\n    Three cassettes labeled \"Names,\" \"Player,\" and \"Rules.\"\n    Two buttons: \"Open Airlock\" and \"Incinerate.\"\n    The airlock has someone waiting to enter.\n\nThese are your tools. The decision is yours." ]
+          "text": [ "In front of you, the essentials are clear:\n\n    A notepad and pen, ready for you to jot down names and passwords.\n    Three cassettes labeled \"Names,\" \"Player,\" and \"Rules.\"\n You can say \"Play tape name\"\n    Two buttons: \"Open Airlock\" and \"Incinerate.\"\n    The airlock has someone inside.\n\nThese are your tools. The decision is yours." ]
         },
         "languageCode": "en"
       } ],

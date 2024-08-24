@@ -46,20 +46,20 @@
   
   },
   "callCompanionSettings": {
-    "company": "Neon Haven"
+    "company": "Call Companion"
   },
   "answerFeedbackSettings": {
   
   },
   "webClientSettings": {
-    "displayName": "Neon Haven",
-    "font": "Roboto",
-    "textColor": "#000000",
-    "backgroundColor": "#000000",
-    "userInputColor": "#777777",
-    "agentResponseColor": "#4CAF50",
-    "userInputTextColor": "#FCE8B2",
-    "agentResponseTextColor": "#000000",
-    "boxBorderRadius": "12"
+    "displayName": "Call Companion",
+    "font": "Google Sans",
+    "textColor": "#000",
+    "backgroundColor": "#f3f6fc",
+    "userInputColor": "#d3e3fd",
+    "agentResponseColor": "#fff",
+    "userInputTextColor": "#000",
+    "agentResponseTextColor": "#000",
+    "boxBorderRadius": "0"
   }
 }

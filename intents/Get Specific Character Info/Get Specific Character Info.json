@@ -10,5 +10,5 @@
   } ],
   "priority": 500000,
   "description": "Get's a single piece of data from the user",
-  "numTrainingPhrases": 16
+  "numTrainingPhrases": 17
 }
