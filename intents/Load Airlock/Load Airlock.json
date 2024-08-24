@@ -6,5 +6,5 @@
     "entityType": "@Airlock"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 16
+  "numTrainingPhrases": 17
 }

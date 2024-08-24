@@ -1,9 +1,14 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Airlock",
-      "parameterId": "airlock",
+      "text": "let another person in",
       "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Airlock"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
@@ -12,9 +17,7 @@
       "text": "Bring the next individual into the ",
       "auto": true
     }, {
-      "text": "airlock",
-      "parameterId": "airlock",
-      "auto": true
+      "text": "airlock"
     }, {
       "text": ".",
       "auto": true

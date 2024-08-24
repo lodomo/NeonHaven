@@ -4,8 +4,11 @@
   "parameters": [ {
     "id": "character_information",
     "entityType": "@character_information"
+  }, {
+    "id": "tape_names",
+    "entityType": "@tape_names"
   } ],
   "priority": 500000,
   "description": "Get's a single piece of data from the user",
-  "numTrainingPhrases": 15
+  "numTrainingPhrases": 16
 }

@@ -1,6 +1,16 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "state your ",
+      "auto": true
+    }, {
+      "text": "name",
+      "parameterId": "character_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "reveal your ",
       "auto": true
     }, {

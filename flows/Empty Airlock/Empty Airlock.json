@@ -24,7 +24,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Vex.\nNova.\nCipher.\nBlitz.\nRaze.\nJuno.\nHavoc.\nShade.\nEcho.\nNix.\nLisa." ]
+          "text": [ "Vex...\nNova...\nCipher...\nBlitz...\nRaze...\nJuno...\nHavoc...\nShade...\nEcho...\nNix...\nLisa..." ]
         },
         "languageCode": "en"
       } ],
@@ -40,7 +40,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Glitch.\nPixel.\nCircuit.\nNeon.\nFloppy.\nByte.\nSynth.\nLaser.\nHolo.\nTerminal.\nVolt.\nCrypt.\nModem.\nQuantum.\nStatic.\nDataline.\nRetro.\nAnalog.\nVoxel.\nSpectrum." ]
+          "text": [ "Glitch...\nPixel...\nCircuit...\nNeon...\nFloppy...\nByte...\nSynth...\nLaser...\nHolo...\nTerminal...\nVolt...\nCrypt...\nModem...\nQuantum...\nStatic...\nDataline...\nRetro...\nAnalog...\nVoxel...\nSpectrum..." ]
         },
         "languageCode": "en"
       } ],
@@ -83,11 +83,11 @@
     "targetFlow": "Full Airlock",
     "name": "d11203c1-4376-4e55-be71-91b2f28a3d31"
   }, {
-    "intent": "Incinerate Character",
+    "intent": "Incinerate Noone",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Flames erupt, quickly engulfing the airlock.", "The airlock is consumed by a sudden burst of fire.", "Fire floods the airlock, filling every corner.", "A wave of flames sweeps through the airlock.", "The airlock is filled with a roaring inferno.", "Flames surge, overtaking the airlock entirely.", "Fire spills into the airlock, engulfing it in an instant.", "The airlock is swallowed by a torrent of fire", "A fiery blaze engulfs the airlock, leaving no space untouched", "The airlock is bathed in flames, burning fiercely." ]
+          "text": [ "The incinerator button does nothing when the airlock is empty." ]
         },
         "languageCode": "en"
       } ],

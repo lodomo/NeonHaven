@@ -1,11 +1,13 @@
 {
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
+  "enableLogging": true,
   "projectNumber": 167292850544,
   "speechToTextSettings": {
     "enableSpeechAdaptation": true
   },
   "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
   "advancedSettings": {
     "enabled": true,
     "audioExportGcsDestination": {
@@ -21,7 +23,9 @@
     
     },
     "loggingSettings": {
-    
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true,
+      "enableConsentBasedRedaction": true
     }
   },
   "speakerIdSettings": {
@@ -41,7 +45,21 @@
   "duplexSettings": {
   
   },
+  "callCompanionSettings": {
+    "company": "Neon Haven"
+  },
+  "answerFeedbackSettings": {
+  
+  },
   "webClientSettings": {
-    "boxBorderRadius": "0"
+    "displayName": "Neon Haven",
+    "font": "Roboto",
+    "textColor": "#000000",
+    "backgroundColor": "#000000",
+    "userInputColor": "#777777",
+    "agentResponseColor": "#4CAF50",
+    "userInputTextColor": "#FCE8B2",
+    "agentResponseTextColor": "#000000",
+    "boxBorderRadius": "12"
   }
 }

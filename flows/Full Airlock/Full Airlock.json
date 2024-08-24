@@ -75,8 +75,6 @@
         },
         "languageCode": "en"
       } ],
-      "webhook": "Get Next Character",
-      "tag": "GetNextChar",
       "nextActionOverride": {
       
       }
@@ -103,6 +101,7 @@
     "description": "Approved a bad guy"
   }, {
     "intent": "Incinerate Character",
+    "condition": "$session.params.samurai.good = \"true\"",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -119,6 +118,7 @@
     "description": "Incinerated a good guy"
   }, {
     "intent": "Incinerate Character",
+    "condition": "$session.params.samurai.good = \"false\"",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -136,7 +136,15 @@
   }, {
     "intent": "Deny but don't incinerate",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "The figure stands calmly, their posture relaxed, as if they’re used to waiting in tense situations.", "They shift their weight from one foot to the other, a restless energy beginning to build.", "The figure glances around the airlock, their hands fidgeting nervously, betraying their unease.", "Their stance is steady and composed, showing a quiet confidence as they wait.", "They pace back and forth, each step growing quicker as their agitation increases.", "The figure’s hands tremble slightly, their breathing shallow and quick, nerves getting the better of them.", "They stand with arms crossed, tapping their fingers against their arm, impatient but trying to stay composed.", "The figure takes a deep breath, holding their ground with a patient resolve, knowing that waiting is part of the game.", "They check the door repeatedly, their movements jittery and anxious, clearly uncomfortable with the wait.", "Their foot taps rhythmically against the floor, a subtle sign of their growing impatience." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
     },
     "name": "1cf272f2-0d43-4156-b19e-2402bbdfcbb2"
   }, {
@@ -202,6 +210,20 @@
     },
     "name": "d0d5ef4a-472f-4ecd-bb56-da0c543ffbd1",
     "description": "Play the passwords tapes"
+  }, {
+    "intent": "Deny but don't incinerate",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The figure shifts impatiently, tapping their foot as the seconds drag on.", "They clench their fists, the tension in their posture growing with every moment of delay.", "A frustrated sigh escapes as the figure crosses their arms, clearly fed up with the wait.", "They pace back and forth within the small space, their agitation impossible to miss.", "The figure repeatedly checks the door, their movements sharp and impatient", "They slam a fist against the airlock door, the forceful impact a clear sign of their growing rage.", "The figure’s shoulders tighten, and they start pacing aggressively, each step heavy with anger.", "A sharp, irritated exhale escapes them, followed by a forceful kick to the wall of the airlock." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "2925d119-61ad-4fab-b9f5-d49c83ba09b8"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

@@ -10,5 +10,5 @@
   } ],
   "priority": 500000,
   "description": "This is the first thing the user will say. ",
-  "numTrainingPhrases": 11
+  "numTrainingPhrases": 12
 }

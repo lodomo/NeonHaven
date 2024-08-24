@@ -1,6 +1,17 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "I'm "
+    }, {
+      "text": "logan",
+      "parameterId": "person"
+    }, {
+      "text": " and i'm going to let the right people in"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "Lorenzo",
       "parameterId": "person",
       "auto": true
@@ -12,9 +23,7 @@
       "text": "My ",
       "auto": true
     }, {
-      "text": "name",
-      "parameterId": "character",
-      "auto": true
+      "text": "name"
     }, {
       "text": "'s ",
       "auto": true
@@ -58,9 +67,7 @@
       "text": "My ",
       "auto": true
     }, {
-      "text": "name",
-      "parameterId": "character",
-      "auto": true
+      "text": "name"
     }, {
       "text": " is ",
       "auto": true
@@ -134,9 +141,7 @@
       "text": "My ",
       "auto": true
     }, {
-      "text": "name",
-      "parameterId": "character",
-      "auto": true
+      "text": "name"
     }, {
       "text": " is ",
       "auto": true
