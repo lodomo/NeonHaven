@@ -4,8 +4,11 @@
   "parameters": [ {
     "id": "tape_type",
     "entityType": "@tape_names"
+  }, {
+    "id": "character_information",
+    "entityType": "@character_information"
   } ],
   "priority": 500000,
   "description": "The player will be trying to listen to a cassette tape.",
-  "numTrainingPhrases": 34
+  "numTrainingPhrases": 35
 }

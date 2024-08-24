@@ -4,5 +4,5 @@
   "priority": 500000,
   "description": "Allow in a character from the airlock",
   "skipAutoAnnotation": true,
-  "numTrainingPhrases": 18
+  "numTrainingPhrases": 20
 }

@@ -21,7 +21,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Welcome, $session.params.person. As you take your position in front of the console, you notice three cassettes neatly arranged on the panel, each labeled with a single word: \"Names,\" \"Player,\" and \"Rules.\" A large, glowing button that says \"Open Airlock\" and another button that says \"Incinerate\" but doesn't appear to be lit up.\n\nYou were expecting only 5 people to return. There is a line of 15 outside. How do you proceed?" ]
+          "text": [ "Welcome, $session.params.person. As you take your position in front of the console, you notice three cassettes neatly arranged on the panel, each labeled with a single word: \"Names,\" \"Passwords,\" and \"Rules.\" A large, glowing button that says \"Open Airlock\" and another button that says \"Incinerate\" but doesn't appear to be lit up.\n\nYou were expecting only 5 people to return. There is a line of 15 outside. How do you proceed?" ]
         },
         "languageCode": "en"
       } ],

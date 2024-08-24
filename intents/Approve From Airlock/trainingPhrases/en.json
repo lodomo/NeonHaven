@@ -1,6 +1,18 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "allow in"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "access granted"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "Press the airlock button"
     } ],
     "repeatCount": 1,

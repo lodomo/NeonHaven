@@ -1,6 +1,19 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "read ",
+      "auto": true
+    }, {
+      "text": "names",
+      "parameterId": "tape_type"
+    }, {
+      "text": " tape",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "likes to the "
     }, {
       "text": "rules",

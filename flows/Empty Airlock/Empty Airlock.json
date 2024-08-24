@@ -20,7 +20,7 @@
     "description": "Play the Rules Tape"
   }, {
     "intent": "Play Tapes",
-    "condition": "$session.params.tape_type = \"names\" OR $session.params.tape_type = \"Name\" OR $session.params.tape_type = \"Names\" OR $session.params.tape_type = \"name\"",
+    "condition": "$session.params.tape_type = \"names\" OR $session.params.tape_type = \"Name\" OR $session.params.tape_type = \"Names\" OR $session.params.tape_type = \"name\" OR $session.params.tape_type = \"players\"",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -55,7 +55,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "In front of you, the essentials are clear:\r\n\r\n    A notepad and pen, ready for you to jot down names and passwords.\r\n    Three cassettes labeled \"Names,\" \"Player,\" and \"Rules.\"\r\n    Two buttons: \"Open Airlock\" and \"Incinerate.\"\r\n    The airlock, currently empty, waiting for your command.\r\n\r\nThese are your tools. The decision is yours." ]
+          "text": [ "In front of you, the essentials are clear:\nA notepad and pen, ready for you to jot down names and passwords.\nThree cassettes labeled \"Names,\" \"Passwords,\" and \"Rules.\"\nTwo buttons: \"Open Airlock\" and \"Incinerate.\"\nThe airlock, currently empty, waiting for your command.\nThese are your tools. The decision is yours." ]
         },
         "languageCode": "en"
       } ],

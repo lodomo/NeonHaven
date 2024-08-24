@@ -1,7 +1,7 @@
 {
   "entities": [ {
     "value": "names",
-    "synonyms": [ "name", "names", "third" ],
+    "synonyms": [ "name", "names", "third", "players" ],
     "languageCode": "en"
   }, {
     "value": "passwords",

@@ -1,0 +1,6 @@
+{
+  "name": "30bcbb1d-7dc4-4d71-a0f2-ee4ca2cb1dcb",
+  "displayName": "Greet inside airlock",
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

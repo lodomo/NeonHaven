@@ -152,7 +152,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "In front of you, the essentials are clear:\n\n    A notepad and pen, ready for you to jot down names and passwords.\n    Three cassettes labeled \"Names,\" \"Player,\" and \"Rules.\"\n You can say \"Play tape name\"\n    Two buttons: \"Open Airlock\" and \"Incinerate.\"\n    The airlock has someone inside.\n\nThese are your tools. The decision is yours." ]
+          "text": [ "In front of you, the essentials are clear:\nA notepad and pen, ready for you to jot down names and passwords.\nThree cassettes labeled \"Names,\" \"Passwords,\" and \"Rules.\"\nYou can say \"Play tape name\"\nTwo buttons: \"Open Airlock\" and \"Incinerate.\"\nThe airlock has someone inside.\nThese are your tools. The decision is yours." ]
         },
         "languageCode": "en"
       } ],
@@ -224,6 +224,20 @@
       }
     },
     "name": "2925d119-61ad-4fab-b9f5-d49c83ba09b8"
+  }, {
+    "intent": "Greet inside airlock",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The figure glances up, gives an exaggerated wave, then points urgently at the airlock button with a 'let’s get moving' kind of energy.", "They do a quick double-take, then give an enthusiastic thumbs-up, clearly trying to make the best of the awkward moment.", "The figure freezes for a second, then slowly raises a hand for a hesitant wave, as if unsure what else to do.", "They place a hand on their helmet, mimicking a facepalm, then point insistently at the airlock controls, clearly over the small talk.", "The figure responds with an exaggerated salute, then immediately starts tapping their wrist as if to say, 'Time’s ticking!'", "They give a little shrug, as if to say, 'Well, here we are,' then gesture towards the door controls, hoping to move things along.", "The figure awkwardly waves both hands in the air, then points at the airlock door with a dramatic flourish, clearly eager to get out of the confined space.", "They give an exaggerated bow, then look up expectantly, waiting for the airlock to open with a bit of theatrical flair.", "The figure responds with a slow, exaggerated nod, then points to themselves and then to the door, miming, 'Can we…?' in a slightly exasperated way." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "ea7828bf-103e-4487-9957-e1bd20aa3188"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
