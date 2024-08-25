@@ -211,20 +211,6 @@
     "name": "d0d5ef4a-472f-4ecd-bb56-da0c543ffbd1",
     "description": "Play the passwords tapes"
   }, {
-    "intent": "Deny but don't incinerate",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "The figure shifts impatiently, tapping their foot as the seconds drag on.", "They clench their fists, the tension in their posture growing with every moment of delay.", "A frustrated sigh escapes as the figure crosses their arms, clearly fed up with the wait.", "They pace back and forth within the small space, their agitation impossible to miss.", "The figure repeatedly checks the door, their movements sharp and impatient", "They slam a fist against the airlock door, the forceful impact a clear sign of their growing rage.", "The figure’s shoulders tighten, and they start pacing aggressively, each step heavy with anger.", "A sharp, irritated exhale escapes them, followed by a forceful kick to the wall of the airlock." ]
-        },
-        "languageCode": "en"
-      } ],
-      "nextActionOverride": {
-      
-      }
-    },
-    "name": "2925d119-61ad-4fab-b9f5-d49c83ba09b8"
-  }, {
     "intent": "Greet inside airlock",
     "triggerFulfillment": {
       "messages": [ {
